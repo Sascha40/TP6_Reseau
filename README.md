@@ -31,7 +31,7 @@ Machines | `10.6.100.0/30` | `10.6.100.4/30` | `10.6.100.8/30` | `10.6.100.12/30
 ## 2. Mise en place du lab  
 
 Schema GNS  
-![schema](gn3_tp6/schema.PNG)  
+![schema](schema.png)  
 
 Mes vérifications : 
 
