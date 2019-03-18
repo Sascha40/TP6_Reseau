@@ -239,13 +239,14 @@ YES DU GNS ON AIME
         inet 10.6.201.50/24 brd 10.6.201.255 scope global noprefixroute dynamic enp0s3
     ```
     
- `Apparement ça a marché`  
+ Apparement ça a marché 
 
 ### 4. Serveur DNS  
 
 
-Sur `server1`:  
-    * Pour installer le serveur DNS : `sudo yum install -y bind*`  
+Sur server1:  
+
+    * Pour installer le serveur DNS : `sudo yum install -y bind*` 
     * J'ai édité le fichier de configuration : `sudo vi /etc/named.conf`  
     * Puis les fichiers de zone : `sudo vi /var/named/forward.tp6.b1` puis `sudo nano /var/named/reverse.tp6.b1` 
       J'ai bien changé les IPs à cause du DHCP  
